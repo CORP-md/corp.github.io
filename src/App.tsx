@@ -189,7 +189,7 @@ export default function App() {
           <p className="section-label mb-6">// CLAUDE CODE AGENT FRAMEWORK</p>
           <h1 className="hero-logo text-6xl md:text-8xl mb-6">CORP</h1>
 		  <div className="flex items-center justify-center min-h-[200px]">
-			<img src="/assets/CORP-main.svg" height="250" width="250" alt="CORP" />
+			<img src={`${import.meta.env.BASE_URL}CORP-main.svg`} height="250" width="250" alt="CORP" />
           </div>
 		  <p className="text-zinc-400 text-lg md:text-xl font-bebas tracking-[0.3em] mb-8">
             STRUCTURED ROLES BUILT FOR AI CODING AGENTS
